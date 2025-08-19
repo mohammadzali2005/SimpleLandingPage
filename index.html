@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a simple home page of a website.">
+    <title> Home Title </title>
+    <link rel="stylesheet" href="./index.css"> <!-- Link to the CSS file -->
+    <script src="https://kit.fontawesome.com/6fa05d4590.js" crossorigin="anonymous"></script> <!-- fontAwesome kit for check icon -->
+</head>
+<body>
+    
+    <!-- header section -->
+    <header>
+        <!-- logo with link -->
+        <a href="./index.html"><img src="./logo-light.svg" alt="logo" class="logo"></a>
+        <ul class="nav">
+            <li> <a href="#" class="nav-item"> About us </a> </li>
+            <li> <a href="#" class="nav-item"> Product </a> </li>
+            <li> <a href="#" class="nav-item"> Resource </a> </li>
+            <li> <a href="#" class="nav-item"> Contact </a> </li>
+        </ul>
+        <!-- for changing the theme of the page -->
+        <div class="theme">
+            <div class="dark">
+                <img src="./Moon_fill_light.svg" alt="moon icon" class="moon">
+            </div>
+            <div class="bright">
+                <img src="./Sun_fill.svg" alt="sun icon" class="sun">
+            </div>
+        </div>
+
+        <div class="navbar-toggle-container">
+            <span class="navbar-toggle"></span>
+        </div>
+    </header>
+
+    <!-- content section -->
+    <div class="content">
+        <div class="content-paragraphs">
+            <h3 class="hook"> 😎 Simple way to communicate </h3>
+            <h1 class="title"> Actions for Accessibility in Design </h1>
+            <h2 class="info"> The fastest way to build and deploy websites with reusable components. </h2>
+            <div class="content-buttons">
+                <button class="start-button"> Get Started </button>
+                <button class="live-demo-button"> Get Live Demo </button>
+            </div>
+            <div class="benefits">
+                <p class="benefit"> <i class="fa-solid fa-circle-check"></i> No credit card required </p>
+                <p class="benefit"> <i class="fa-solid fa-circle-check"></i> No software to install </p>
+            </div>
+        </div>
+        <div class="content-image-container">
+            <img src="./hero-image-simple-homepage.png" alt="content's image" class="content-image">
+        </div>
+    </div>
+
+    <!-- navbar for mobile -->
+    <div class="mobile-navbar-container">
+        <img src="./close-button.svg" alt="Close button icon" class="close-button">
+        <ul class="mobile-menu">
+            <li><a href="#"> About us </a></li>
+            <li><a href="#"> Product </a></li>
+            <li><a href="#"> Resource </a></li>
+            <li><a href="#"> Contact </a></li>
+        </ul>
+        <div class="mobile-theme">
+            <div class="mobile-dark">
+                <img src="./Moon_fill_light.svg" alt="moon icon" class="mobile-moon">
+            </div>
+            <div class="mobile-bright">
+                <img src="./Sun_fill.svg" alt="sun icon" class="mobile-sun">
+            </div>
+        </div>
+    </div>
+
+    <!-- connecting to the JS file -->
+    <script src="./index.js"></script>
+</body>
+</html>
